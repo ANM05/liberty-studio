@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact.component.scss']
 })
 export class ContactComponent implements OnInit {
-  public map: any = { lat: 51.678418, lng: 7.809007 };
+  public map: any = { lat: -1.296004, lng: 36.783842 };
 
   constructor() { }
 
