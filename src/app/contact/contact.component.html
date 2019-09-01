@@ -1,1 +1,6 @@
-<p>contact works!</p>
+<!-- Google-map -->
+<div class="map-container">
+    <agm-map [latitude]="map.lat" [longitude]="map.lng" style="height: 300px">
+        <agm-marker [latitude]="map.lat" [longitude]="map.lng"></agm-marker>
+    </agm-map>
+</div>
