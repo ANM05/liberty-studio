@@ -13,6 +13,9 @@ import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AgmCoreModule } from '@agm/core';
+// import {environment} from "../../environments/environment";
+
+// let apiKey: string = environment.apiKey;
 
 @NgModule({
   declarations: [
