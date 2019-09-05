@@ -1,6 +1,42 @@
 <!-- Google-map -->
-<div class="container-fluid">
-    <agm-map [latitude]="map.lat" [longitude]="map.lng" style="height: 500px">
-        <agm-marker [latitude]="map.lat" [longitude]="map.lng"></agm-marker>
-    </agm-map>
+<div>
+    <section class="map-section">
+        <div class="map">
+            <agm-map [latitude]="map.lat" [longitude]="map.lng" style="height: 500px">
+                <agm-marker [latitude]="map.lat" [longitude]="map.lng"></agm-marker>
+            </agm-map>
+        </div>
+    </section>
+    <!--Contact section-->
+    <section id="contact">
+        <!-- heading -->
+        <h2 class="mb-5  text-center">Talk to us</h2>
+        <!-- Contact form -->
+        <form action="" class="container">
+            <div class="md-form form-sm">
+                <i class="fa fa-user prefix grey-text"></i>
+                <input type="text" id="input-1" class="form-control">
+                <label for="input-1">Your name</label>
+            </div>
+            <div class="md-form form-sm">
+                <i class="fa fa-envelope prefix grey-text"></i>
+                <input type="text" id="input-2" class="form-control">
+                <label for="input-2">Your E-mail</label>
+            </div>
+            <div class="md-form form-sm">
+                <i class="fa fa-tag prefix grey-text"></i>
+                <input type="text" id="input-3" class="form-control">
+                <label for="input-3">Subject</label>
+            </div>
+            <div class="md-form form-sm">
+                <i class="fa fa-pencil-square-o prefix grey-text"></i>
+                <textarea type="text" id="input-4" class="md-textarea"></textarea>
+                <label for="input-4">Your message</label>
+            </div>
+            <div class="text-center">
+                <button class="btn btn-unique">Send <i class="fa fa-paper-plane-o ml-2"></i></button>
+            </div>
+        </form>
+    </section>
+    <!--Contact section-->
 </div>
